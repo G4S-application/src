@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Προγραμματισμός Ραντεβού</title>
+  <!-- Linked CSS files -->
+  <link rel="stylesheet" href="appointment.css">
+  <link rel="stylesheet" href="banner.css">
+</head>
+<body>
+  <!-- Banner -->
+  <header class="banner">
+    <div class="banner-content">
+      <img src="C:\Users\USER\Downloads\g4s-logo.png" alt="Banner Image" class="banner-image">
+    </div>
+  </header>
+  <!-- Make A Request -->
+  <div class="container">
+    <h2><a href="send.html">Αίτησης Υπηρεσιών</a></h2>
+    <!-- Appointment Form -->
+    <form>
+      <div class="form-group">
+        <label for="date">Ημερομηνία Ραντεβού:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="date">Ώρα Ραντεβού:</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+      <div class="form-group">
+        <label for="person">Άτομο:</label>
+        <select id="person" name="person" required>
+          <option value="" disabled selected>Επιλέξτε άτομο</option>
+          <option value="Μάνος Γιαννακόπουλος Αρχιφύλακας">Μάνος Γιαννακόπουλος Αρχιφύλακας</option>
+          <option value="Γιώργος Λιακόπουλος Αρχιφύλακας">Γιώργος Λιακόπουλος Αρχιφύλακας</option>
+          <option value="HR Department Director">HR Department Director</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <button type="submit">Καθορισμός Ραντεβού</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

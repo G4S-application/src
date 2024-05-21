@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Σύνδεση Χρήστη</title>
+  <!-- Linked CSS files -->
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="banner.css">
+</head>
+<body>
+  <!-- Banner -->
+  <header class="banner">
+    <div class="banner-content">
+      <img src="C:\\Users\\USER\\Downloads\\g4s-logo.png" alt="Banner Image" class="banner-image">
+    </div>
+    <div class="banner-text-container">
+      <div class="banner-text security-text">ΦΥΛΑΚΑΣ</div>
+      <div class="banner-code">01837</div>
+    </div>
+  </header>
+  <!-- Login -->
+  <div class="container">
+    <h2>Είσοδος Χρήστη</h2>
+    <form action="send.html" method="post">
+      <div class="form-group">
+        <label for="username">Όνομα Χρήστη:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Κωδικός:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="terms-container">
+        <input type="checkbox" id="terms" name="terms" class="terms-checkbox" required>
+        <label for="terms" class="terms-text">Αποδέχομαι τους <a href="#">όρους και τις προϋποθέσεις</a></label>
+      </div>
+      <div class="form-group">
+        <button type="submit">Σύνδεση</button>
+      </div>
+    </form>
+    <div class="forgot-password">
+      <p>Δεν μπορώ να συνδεθώ. <a href="#">Ξεχάσατε τον κωδικό;</a></p>
+    </div>
+  </div>
+</body>
+</html>

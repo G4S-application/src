@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Αίτηση Άδειας</title>
+  <!-- Linked CSS files -->
+  <link rel="stylesheet" href="time_off.css">
+  <link rel="stylesheet" href="banner.css">
+</head>
+<body>
+  <!-- Banner -->
+  <header class="banner">
+    <div class="banner-content">
+      <img src="C:\\Users\\USER\\Downloads\\g4s-logo.png" alt="Banner Image" class="banner-image">
+    </div>
+  </header>
+  <!-- Make A Request -->
+  <div class="container">
+    <h2><a href="send.html">Αίτησης Υπηρεσιών</a></h2>
+    <!-- Time Off Form -->
+    <form>
+      <div class="form-group date-group">
+        <label for="date-start">Από:</label>
+        <input type="date" id="date-start" name="date-start" required>
+        <label for="date-end">Εώς:</label>
+        <input type="date" id="date-end" name="date-end" required>
+      </div>
+      <div class="form-group">
+        <label for="reason">Αιτία Άδειας:</label>
+        <textarea id="reason" name="reason" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Υποβολή Αίτησης</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
