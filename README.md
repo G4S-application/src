@@ -21,4 +21,6 @@ Please note that this is **not an actual job for G4S**. It is an assignment anal
 
 ## Demo
 
+You can view the live demo [here](https://detfolio.dmst.aueb.gr/Students2022/athasakkatos/inetpub/src3-main/login.html).
+
 In the `src` repository, you will find a demo for the graphic interface. This is the **first HTML/CSS app** developed by our team.
